@@ -1,0 +1,34 @@
+# RE_DATA names
+DATA_BLOCK = "Data"
+ACTION = "Action"
+STAGE = "Stage"
+STATIONFROM = "StationFrom"
+STATIONFROMCODE = "StationFromCode"
+STATIONTO = "StationTo"
+STATIONTOCODE = "StationToCode"
+DEPARTDATE = "DepDate"
+DEPARTTIME = "DepTime"
+BADDATE = "BadDate"
+BADTIME = "BadTime"
+ARRTIME = "ArrTime"
+STATIONAT = "StationAt"
+STATIONATTIME = "StationAtTime"
+SINGLERETURN = "SingleReturn"
+RETURNDATE = "ReturnDate"
+RETURNTIME = "ReturnTime"
+RESPONSE_HEAD = "Response"
+RESPONSE_CODE = "Code"
+RESPONSE_DATA = "ResponseData"
+CONFIRMED = "Confirmed"
+QUESTION = "Question"
+ACTUALDEPART = "ActualDepart"
+QUESTIONSEARCHING = "QSEARCHING"
+QUESTIONTREE = "QUESTIONTREE"
+
+
+STATUS_EXIT = 999
+STATUS_INVALID = "Status Invalid"
+
+FORMAT_DATE = '%d/%m/%Y'
+FORMAT_TIME = '%H:%M'
+FORMAT_DATETIME = FORMAT_DATE + ' ' + FORMAT_TIME

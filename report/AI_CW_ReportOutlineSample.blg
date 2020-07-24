@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: AI_CW_ReportOutlineSample.aux
+The style file: apalike.bst
+Database file #1: example_refs.bib
+Warning--entry type for "AI2018CW" isn't style-file defined
+--line 1 of file example_refs.bib
+Warning--I didn't find a database entry for "django"
+Warning--empty publisher in kanban
+You've used 34 entries,
+            1935 wiz_defined-function locations,
+            616 strings with 7460 characters,
+and the built_in function-call counts, 8517 in all, are:
+= -- 890
+> -- 256
+< -- 34
++ -- 77
+- -- 74
+* -- 535
+:= -- 1690
+add.period$ -- 100
+call.type$ -- 34
+change.case$ -- 205
+chr.to.int$ -- 31
+cite$ -- 35
+duplicate$ -- 348
+empty$ -- 527
+format.name$ -- 114
+if$ -- 1569
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 171
+num.names$ -- 102
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 207
+quote$ -- 0
+skip$ -- 307
+stack$ -- 0
+substring$ -- 408
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 200
+warning$ -- 1
+while$ -- 68
+width$ -- 0
+write$ -- 406
+(There were 3 warnings)

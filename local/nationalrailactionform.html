@@ -1,0 +1,165 @@
+<form action="https://ojp.nationalrail.co.uk/service/planjourney/plan" method="post" id="journeyPlannerForm">
+	<input type="hidden" id="jpState" name="jpState" value="01ngle">
+	<input type="hidden" id="commandName" name="commandName" value="journeyPlannerCommand">
+	<fieldset>
+		<input type="text" class="jpPredictText" id="txtFrom" value="Station / Postcode" aria-labelledby="txtFromLabel txtFrom" aria-required="true" name="from.searchTerm" stype="" autocomplete="off" spellcheck="false" data-usepc="true">
+		<input type="text" class="jpPredictText" id="txtTo" value="Station / Postcode" aria-labelledby="txtToLabel txtTo" aria-required="true" name="to.searchTerm" stype="" autocomplete="off" spellcheck="false" data-usepc="true">
+		<select id="sltArr" name="timeOfOutwardJourney.arrivalOrDeparture">
+			<option value="DEPART" selected="selected">Leaving</option>
+			<option value="ARRIVE">Arriving</option>
+			<option value="FIRST">First train</option>
+			<option value="LAST">Last train</option>
+		</select>
+		<input type="text" id="txtDate" value="Today" class="day w3em noclear" title="Type your date e.g. 'Next Saturday'" role="widget" autocomplete="off" spellcheck="off" name="timeOfOutwardJourney.monthDay">
+		<select name="timeOfOutwardJourney.hour" id="sltHours" class="hours">
+			<option value="00">00</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16" selected="selected">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option>										
+		</select>
+		<select id="sltMins" class="mins" name="timeOfOutwardJourney.minute">
+			<option value="0">00</option><option value="15" selected="selected">15</option><option value="30">30</option><option value="45">45</option>
+		</select>	
+	</fieldset>
+	<fieldset>
+		<input id="ret-ch" name="checkbox" class="check" type="checkbox" value="true">
+		<input type="hidden" name="_checkbox" value="on">
+
+		<select id="sltArrRet" name="timeOfReturnJourney.arrivalOrDeparture">
+			<option value="DEPART">Leaving</option>
+			<option value="ARRIVE">Arriving</option>
+			<option value="FIRST">First train</option>
+			<option value="LAST">Last train</option>
+		</select>
+		<input type="text" name="timeOfReturnJourney.monthDay" id="txtDateRet" value="Today" class="day w3em noclear">
+		<select name="timeOfReturnJourney.hour" id="sltHoursRet" class="hours">
+			<option value="00">00</option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18" selected="selected">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option>										
+		</select>
+
+		<select id="sltMinsRet" class="mins" name="timeOfReturnJourney.minute">
+			<option value="0">00</option><option value="15" selected="selected">15</option><option value="30">30</option><option value="45">45</option>
+		</select>
+	</fieldset>
+	<input id="chkTrains3" name="showFastestTrainsOnly" class="check" type="checkbox" value="true">
+	<input type="hidden" name="_showFastestTrainsOnly" value="on">
+
+	<select id="adults" name="numberOfAdults">
+	<!-- this ID is used by functions.js 2240 $("#adults").focus(); -->
+		<option value="0">0</option><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>			
+	</select>               
+
+	<select id="children" name="numberOfChildren">
+	<!-- this ID is used by functions.js 2240 $("#adults").focus(); -->
+		<option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>			
+	</select>
+
+	<input id="first-class" name="firstClass" class="check" type="checkbox" value="true" checked="checked"><input type="hidden" name="_firstClass" value="on">
+	<input id="standard-class" name="standardClass" class="check" type="checkbox" value="true" checked="checked"><input type="hidden" name="_standardClass" value="on">
+
+	<select name="rcards" id="rcards" class="rcards-t" title="Select the number and type of Railcards that the passenger will use for this journey" data-prev-value="0">
+		<option value="">Select a railcard</option>
+
+		<option value="TSU">16-17 Saver</option>
+		<option value="YNG">16-25 Railcard</option>
+		<option value="TST">26-30 Railcard</option>
+		<option value="NGC">Annual Gold (Network Gold / South East)</option>
+		<option value="DCR">Devon &amp; Cornwall Railcard</option>
+		<option value="DCG">Devon &amp; Cornwall Gold Card</option>
+		<option value="DIS">Disabled Persons Railcard</option>
+		<option value="FAM">Family &amp; Friends Railcard</option>
+		<option value="HRC">Highland Railcard</option>
+		<option value="HMF">HM Forces Railcard</option>
+		<option value="NDC">JobCentre Plus Travel Discount Card</option>
+		<option value="NDJ">New Deal Photocard Scotland</option>
+		<option value="NEW">Network Railcard</option>
+		<option value="SRN">Senior Railcard</option>
+		<option value="2TR">Two Together Railcard</option>
+	</select>
+
+	<select name="numberOfEachRailcard" id="rcards-q" class="rcards-q" title="Select the number of Railcards that the passenger will use for this journey">
+		<option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>					
+	</select>
+
+	<input type="hidden" name="railcardCodes" value="" id="rcards-h">
+
+	<button type="submit" class="rcards-add not-IE6" id="addRailcardBtn"><span>Add another</span></button>
+
+	<select id="sltViaAv" name="viaMode">
+		<option value="VIA">Travel via</option>
+		<option value="AVOID">Avoid</option>
+		<option value="CHANGE">Change at</option>
+		<option value="DONT_CHANGE">Don't change at</option>
+	</select>
+
+
+	<input id="txtViaAvDest" name="via.searchTerm" class="jpPredictText" type="text" aria-labelledby="txtViaAvDestLabel txtViaAvDest" stype="" value="Station" autocomplete="off" spellcheck="false">
+
+		<select id="sltViaAv1">
+			<option value="VIA">Travel via</option>
+			<option value="AVOID">Avoid</option>
+			<option value="CHANGE">Change at</option>
+			<option value="DONT_CHANGE">Don't change at</option>
+		</select>
+
+
+		<input class="jpPredictText" type="text" id="txtViaAvDest1" name="via1.searchTerm" aria-labelledby="txtViaAvDestLabel1 txtViaAvDest1" stype="" value="Station">
+
+		<select id="sltViaAv2">
+			<option value="VIA">Travel via</option>
+			<option value="AVOID">Avoid</option>
+			<option value="CHANGE">Change at</option>
+			<option value="DONT_CHANGE">Don't change at</option>
+		</select>
+
+		<input class="jpPredictText" type="text" id="txtViaAvDest2" name="via2.searchTerm" aria-labelledby="txtViaAvDestLabel2 txtViaAvDest2" stype="" value="Station">
+		<input type="submit" id="addVia" class="via1" value="Add another">
+	</fieldset>
+	<fieldset>
+		<select id="sltChange" name="offSetOption" class="slt-fixed">
+			<option value="0" selected="selected">Use recommended</option>
+			<option value="1">1/2 hour extra</option>
+			<option value="2">1 hour extra</option>
+			<option value="3">1 hour 30 minutes extra</option>
+			<option value="4">2 hours extra</option>
+		</select>
+
+		<select id="sltTrOp" name="operator.code" class="slt-fixed">
+			<option value="" selected="selected">All Train Operators</option>
+
+			<option value="CC">c2c</option>
+			<option value="CS">Caledonian Sleeper</option>
+			<option value="CH">Chiltern Railways</option>
+			<option value="XC">CrossCountry</option>
+			<option value="EM">East Midlands Railway</option>
+			<option value="ES">Eurostar</option>
+			<option value="GX">Gatwick Express</option>
+			<option value="GC">Grand Central</option>
+			<option value="GN">Great Northern</option>
+			<option value="GW">Great Western Railway</option>
+			<option value="LE">Greater Anglia</option>
+			<option value="HX">Heathrow Express</option>
+			<option value="HT">Hull Trains</option>
+			<option value="IL">Island Line Trains</option>
+			<option value="GR">London North Eastern Railway</option>                    
+			<option value="LN">London Northwestern Railway</option>
+			<option value="LO">London Overground</option>
+			<option value="ME">Merseyrail</option>
+			<option value="NT">Northern</option>
+			<option value="SR">ScotRail</option>
+			<option value="SW">South Western Railway</option>
+			<option value="SE">Southeastern</option>
+			<option value="SN">Southern</option>
+			<option value="SX">Stansted Express</option>
+			<option value="XR">TfL Rail</option>
+			<option value="TP">TransPennine Express</option>
+			<option value="AW">Transport for Wales</option>                    
+			<option value="TL">Thameslink</option>
+			<option value="VT">Virgin Trains</option>
+			<option value="WM">West Midlands Railway</option>
+		</select>
+		  
+		<input class="check" type="checkbox" id="chkReduce"><input type="hidden" name="_reduceTransfers" value="on">
+		<input id="chkTrains1" name="lookForSleeper" class="check" type="checkbox" value="true">
+		<input type="hidden" name="_lookForSleeper" value="on">					
+		<input id="chkTrains2" name="directTrains" class="check" type="checkbox" value="true">
+		<input type="hidden" name="_directTrains" value="on">				
+	</fieldset>					
+	<button type="submit">Go</button>
+</form>

@@ -1,0 +1,66 @@
+div.logBox {
+  background-color: lightblue;
+  width: 100%;
+  height: 30em;
+  overflow: scroll;
+  padding: 1em;
+}
+
+div.userInputBox {
+  float: left;
+  width: 100%;
+  padding: 0.5em 1em;
+}
+
+div.userInputBox div {
+  width: 55%;
+  padding: 1em;
+}
+
+div.botInputBox {
+  float: left;
+  width: 100%;
+  padding: 0.5em 0em;
+}
+
+div.botInputBox div {
+  float: right;
+  background-color: #FFF;
+  width: 55%;
+  padding: 1em;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+div small {
+  color: #555;
+}
+
+/* Phones */
+@media only screen and (max-width: 450px) {
+  div.userInputBox {
+    padding-left: 0;
+  }
+
+  div.userInputBox div {
+    width: 95%;
+    padding: 0.5em;
+  }
+
+  div.botInputBox div {
+    width: 95%;
+  } 
+}
+
+/* Tablet */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  div.userInputBox div {
+    width: 75%;
+  }
+
+  div.botInputBox div {
+    width: 75%;
+  } 
+}
+

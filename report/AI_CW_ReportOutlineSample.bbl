@@ -1,0 +1,184 @@
+\begin{thebibliography}{}
+
+\bibitem[Abou-Zahra, 2019]{w3c_voicerec}
+Abou-Zahra, S. (2019).
+\newblock W3c web accessibility initiative - voice recognition.
+\newblock \url{https://www.w3.org/WAI/perspective-videos/voice/}.
+
+\bibitem[AI, 2016]{spacy}
+AI, E. (2016).
+\newblock Spacy.
+\newblock \url{https://spacy.io}.
+
+\bibitem[AI, 2019]{spacymodel}
+AI, E. (2019).
+\newblock Models and languages.
+\newblock \url{https://spacy.io/usage/models}.
+
+\bibitem[Akehurst, 2019]{wiremock}
+Akehurst, T. (2019).
+\newblock Wiremock.
+\newblock \url{http://wiremock.org/}.
+
+\bibitem[Beck and et~al., 2001]{agilemani}
+Beck, K. and et~al. (2001).
+\newblock Manifesto for agile scrum.
+\newblock \url{https://agilemanifesto.org/}.
+
+\bibitem[Blog, 2013]{r_squared}
+Blog, M. (2013).
+\newblock Regression analysis: How do i interpret r-squared and assess the
+  goodness-of-fit?
+\newblock
+  \url{https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit}.
+
+\bibitem[Chacon, 2019]{git}
+Chacon, S. (2019).
+\newblock Git - fast version control.
+\newblock \url{https://git-scm.com/}.
+
+\bibitem[DeepAI, nd]{epoch}
+DeepAI (n.d.).
+\newblock What is an epoch?
+\newblock \url{https://deepai.org/machine-learning-glossary-and-terms/epoch}.
+
+\bibitem[eumetrain, nd]{rmse_mae}
+eumetrain (n.d.).
+\newblock Mean absolute error (mae) and root mean squared error (rmse).
+\newblock
+  \url{http://www.eumetrain.org/data/4/451/english/msg/ver_cont_var/uos3/uos3_ko1.htm}.
+
+\bibitem[Google, nd]{chromedriver}
+Google (n.d.).
+\newblock Chromedriver - webdriver for chrome.
+\newblock \url{https://sites.google.com/a/chromium.org/chromedriver/downloads}.
+
+\bibitem[Holmes, 2000]{rmse}
+Holmes, S. (2000).
+\newblock Rms error.
+\newblock
+  \url{https://statweb.stanford.edu/~susan/courses/s60/split/node60.html}.
+
+\bibitem[Huggins and et~al., 2019]{selenium}
+Huggins and et~al. (2019).
+\newblock Seleniumhq.
+\newblock \url{https://www.seleniumhq.org/}.
+
+\bibitem[joeblackwaslike, 2018]{Flask-bootstrap}
+joeblackwaslike (2018).
+\newblock Flask-bootstrap4.
+\newblock \url{https://pypi.org/project/Flask-Bootstrap4/}.
+
+\bibitem[jruizpy, 2019]{DurRule}
+jruizpy (2019).
+\newblock Durable rules.
+\newblock \url{https://pypi.org/project/durable-rules/}.
+
+\bibitem[Keras, nd]{keras}
+Keras (n.d.).
+\newblock Keras: The python deep learning library.
+\newblock \url{https://keras.io/}.
+
+\bibitem[Krekel and et~al., 2019]{pytest}
+Krekel and et~al. (2019).
+\newblock Pytest.
+\newblock \url{https://docs.pytest.org/en/latest/}.
+
+\bibitem[Ladas, 2008]{scrumban}
+Ladas, C. (2008).
+\newblock {\em Scrumban and other essays on Kanban System for Lean Software
+  develoment}.
+\newblock Modus Cooperandi Press.
+
+\bibitem[Mozilla, 2019a]{speechrecognition}
+Mozilla (2019a).
+\newblock Mdn web docs - speechrecognition.
+\newblock
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition}.
+
+\bibitem[Mozilla, 2019b]{SpeechSynthesis}
+Mozilla (2019b).
+\newblock Mdn web docs - speechsynthesis.
+\newblock
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis}.
+
+\bibitem[Mozilla, nd]{geckodriver}
+Mozilla (n.d.).
+\newblock geckodriver - mozilla source tree docs.
+\newblock \url{https://firefox-source-docs.mozilla.org/testing/geckodriver/}.
+
+\bibitem[NHS, 2018]{rsi}
+NHS (2018).
+\newblock Repetitive strain injury (rsi).
+\newblock \url{https://www.nhs.uk/conditions/repetitive-strain-injury-rsi/}.
+
+\bibitem[Ohno, 1988]{kanban}
+Ohno, T. (1988).
+\newblock {\em Toyota Production System: Beyond Large-Scale Production}.
+
+\bibitem[Reitz, nd]{requests}
+Reitz, K. (n.d.).
+\newblock Requests: Http for humans.
+\newblock \url{https://2.python-requests.org/en/master/}.
+
+\bibitem[Richardson, 2019]{beautifulsoup}
+Richardson, L. (2019).
+\newblock Beautifulsoup.
+\newblock \url{https://www.crummy.com/software/BeautifulSoup/}.
+
+\bibitem[Ronacher, 2019]{Flask}
+Ronacher, A. (2019).
+\newblock Flask.
+\newblock \url{https://www.palletsprojects.com/p/flask/}.
+
+\bibitem[Sayad, nd]{svr}
+Sayad, D.~S. (n.d.).
+\newblock Support vector machine - regression (svr).
+\newblock \url{https://www.saedsayad.com/support_vector_machine_reg.htm}.
+
+\bibitem[scikit learn, nda]{nn_sklearn}
+scikit learn (n.d.a).
+\newblock Neural network models (supervised).
+\newblock
+  \url{https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regre}.
+
+\bibitem[scikit learn, ndb]{minmaxscaler_sklearn}
+scikit learn (n.d.b).
+\newblock sklearn.preprocessing.minmaxscaler.
+\newblock
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler}.
+
+\bibitem[scikit learn, ndc]{standardscaler_sklearn}
+scikit learn (n.d.c).
+\newblock sklearn.preprocessing.standardscaler.
+\newblock
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html}.
+
+\bibitem[sklearn, nd]{med_ae}
+sklearn (n.d.).
+\newblock Median absolute error.
+\newblock
+  \url{https://scikit-learn.org/stable/modules/model_evaluation.html#median-absolute-error}.
+
+\bibitem[STF, 2019]{unittest}
+STF (2019).
+\newblock Unit testing.
+\newblock \url{http://softwaretestingfundamentals.com/unit-testing/}.
+
+\bibitem[Vincent, 2016]{mschatbot}
+Vincent, J. (2016).
+\newblock Twitter taught microsoft’s ai chatbot to be a racist asshole in
+  less than a day.
+\newblock
+  \url{https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist}.
+
+\bibitem[Wang, 2018]{AI2018CW}
+Wang, W. (2018).
+\newblock Artificial intelligence modules (cmp6040) coursework specification.
+
+\bibitem[Zhang, 2017]{speechrecognition_python}
+Zhang, A. (2017).
+\newblock speech\_recognition \- github page.
+\newblock \url{https://github.com/Uberi/speech_recognition#readme}.
+
+\end{thebibliography}

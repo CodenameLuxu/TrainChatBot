@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Chatbot{% endblock %}
+{% block html_attribs %} lang="en"{% endblock %}
+
+{% block styles %}
+  {{super()}}
+  <link rel="stylesheet"
+        href="{{url_for('.static', filename='css/style.css')}}">
+{% endblock %}
+
+{% block scripts %}
+  {{super()}}
+  <script src="{{url_for('.static', filename='js/tts.js')}}"></script>
+  <script src="{{url_for('.static', filename='js/script.js')}}"></script>
+  <script src="{{url_for('.static', filename='js/speech.js')}}"></script>
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h1 class="text-center">Chatbot</h1>
+    <a href="{{url_for('.static', filename='html/help.html')}}">Help</a>
+    <div class="logBox overflow-auto" id="log">
+    </div>
+    <div class="input-group mb-3">
+      <input class="form-control" placeholder="Start chatting to the bot!" type="text" name="inputText" id="inputText">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" id="submitButton" oncontextmenu="event.preventDefault();">Submit</button>
+      </div>
+    </div>
+    <button class="btn btn-outline-secondary" id="voiceButton">Start voice recognition</button>
+    <button class="btn btn-outline-secondary" id="ttsButton">Enable text to speech</button>
+    <p id="voice_info">
+    </p>
+  </div>
+{% endblock %}
+

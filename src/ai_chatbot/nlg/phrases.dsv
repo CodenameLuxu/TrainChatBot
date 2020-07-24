@@ -1,0 +1,41 @@
+hello$Hello! I'm the train chatbot. I can assist you with booking train tickets, estimating train delays, and general FAQ's.
+hello$Welcome to the train chatbot.
+hello$Hiya, how can I help you today?
+hello$I'm programed to assist with train queries, I like trains and I hope you do too.
+error$sorry, I didn't understand that.
+error$I wasn't able to understand that.
+error$There was an error, please try again.
+error$I'm not sure what you mean?
+dep$Please enter a departing station.
+dep$Which station are you traveling from?
+dep$Where are you coming from?
+arr$Please enter your arrival station.
+arr$Which station are you traveling to?
+arr$Where are you going to?
+arrtime$What time do you want to arrive at?
+arrtime$What time do you need to be there for?
+arrtime$Please enter an arrival time.
+deptime$What time do you want to leave at?
+deptime$When do you want the train to depart at?
+deptime$Please enter a departure time.
+deldeptime$Please enter the time you departed from your starting station.
+date$Please enter a travel date.
+date$What date are you traveling on?
+date$When is the date you wish to travel?
+inter$What is the last station you stopped at on your journey?
+inter$Please let me know which station you have last stopped at.
+inter$What station has the train stopped at recently.
+exparr$What time was this train due to arrive?
+exparr$When is this train supposed to arrive by?
+exparr$Please enter the expected arrival time.
+interarr$What time did the train pass through the intermediate station?
+interarr$What time did the train last stop at a station?
+interarr$Please let me know what time the train last stopped at a station.
+exit$What we're we talking about?
+exit$No problem, I'm ready for your next query.
+exit$Okay, I have forgotten you last query.
+singlereturn$Is this a one way or a return ticket?
+baddate$That date is in the past, please choose another in the future.
+badtime$That date and time is in the past, please choose another in the future.
+returndate$What date would you like to return?
+returntime$What time is the return journey to depart at?

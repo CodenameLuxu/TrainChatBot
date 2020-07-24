@@ -1,0 +1,15 @@
+# This file defines status codes that wil be returned by resasoning engine
+
+NOT_PROCESS = 0
+
+SUCESS_BOOKING = 101
+SUCESS_DELAY = 102
+SUCESS_QUESTION = 103
+
+VERIFICATION = 301
+
+QUESTION_NOTFOUND = 401
+
+MISSING_INPUT = 501
+UNKNOWN_QUESTION = 502
+NEW_CONVERSATION = 503

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Help page</title>
+  </head>
+  <body>
+    <h1>Chatbot - Help Guide/Tutorial</h1>
+    <h2>Features</h2>
+    <ul>
+      <li>Gets train ticket information, single or returns</li>
+      <li>Train delay prediction</li>
+      <li>Voice recognition (speech-to-text) and synthesis (text-to-speech)</li>
+    </ul>
+
+    <h2>Example scenario: Getting train ticket</h2>
+    <ul>
+      <li>You: I want a train ticket from Norwich to London Liverpool Street</li>
+      <li>Bot: What date are you traveling on?</li>
+      <li>You: 12th of Feburary 2020</li>
+      <li>Bot: What time do you want to leave at?</li>
+      <li>You: 15:15</li>
+      <li>Bot: you said: norwich-nrw to luton-lut on the 12 feburary 2020 at 15:15 - Is that correct?</li>
+      <li>You: Yes</li>
+    </ul>
+
+    <h2>Train delay prediction</h2>
+    <p>
+    This chatbot can also predict train delay also. For example:
+    </p>
+    <blockquote>
+    "Can you please let me know the delay on my train from Norwich that was supposed to leave at 1pm, and left at 1:20pm, going to London Liverpool Street to arrive at 3pm, and we just passed Colchester at 2:30pm."
+    </blockquote>
+    <p>
+    You will need to put the following:
+    </p>
+    <ul>
+      <li>The departure station name</li>
+      <li>The departure station's supposed to leave time (planned time)</li>
+      <li>The departure station's actually left time (actual time)</li>
+      <li>The arrival station name</li>
+      <li>The arrival station's supposed to arrival time (planned time)</li>
+      <li>The station you just passed name</li>
+      <li>The departure of the station you just passed (actual time)</li>
+    </ul>
+
+    <h2>Voice recognition and synthesis</h2>
+    <p>
+    You need Chrome/Chromium in order to use voice recognition, voice synthesis is supported by most major browsers. You can disable/enable both recognition and synthesis features with the two buttons ("Start/Stop Voice Recognition" and "Enable/Disable text to speech") below the text input.
+    </p>
+  </body>
+</html>
